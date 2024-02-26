@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.cow{
+    background-image: url(../img/cow.jpg.jpg);
+    background-position: bottom center;
+    height: 100vh;
+    background-size: cover;
+}   
+.cow h1{
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 80;
+    padding-top: 30px;
+    font-family: cursive;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    
+}
