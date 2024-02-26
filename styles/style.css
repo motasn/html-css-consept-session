@@ -10,6 +10,7 @@
     background-position: bottom center;
     height: 100vh;
     background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 75% 100%, 25% 100%, 0 72%);
 }   
 .cow h1{
     color: azure;
@@ -22,7 +23,7 @@
     letter-spacing: 10px;
     
 }
-.artical { 
+.artical,.cow-img { 
     width: 80%;
 margin: 40px auto;
 padding: 50px;
@@ -30,6 +31,7 @@ border: 10px solid greenyellow;
 border-radius: 15px;
 background-color: aqua;
 box-shadow:cornflowerblue 20px 30px 10px ;
+background: linear-gradient(pink,rgb(31, 33, 189));
 
 }
 .artical h2 , #type-cow{
@@ -51,12 +53,13 @@ box-shadow:cornflowerblue 20px 30px 10px ;
     background-color: aqua;
     box-shadow:cornflowerblue 20px 30px 10px ;
 }
-.cow-img{
-    display: flex;
-    flex-direction: column;
-}
+
+    
 .cow-img div{
     min-width: 300px;
+    display: flex;
+    flex-direction: column;
+
 }
 .cow-img,img{
     width: 100%;
