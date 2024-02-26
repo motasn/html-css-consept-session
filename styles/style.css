@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&display=swap')
 *{
     margin: 0;
-    padding:0;
+    padding:0px;
+    font-family: "Lato", sans-serif;
 }
 .cow{
     background-image: url(../img/cow.jpg.jpg);
@@ -19,3 +21,25 @@
     letter-spacing: 10px;
     
 }
+.artical{ 
+    width: 80%;
+margin: 40px auto;
+padding: 50px;
+border: 10px solid greenyellow;
+border-radius: 15px;
+background-color: aqua;
+box-shadow:cornflowerblue 20px 30px 10px ;
+
+}
+.artical h2{
+
+    text-align: center;
+    margin: 20px 40px ;
+    border-bottom:2px solid coral ;
+    padding:10px ;
+
+}
+.artical{
+    text-align: justify;
+}
+
